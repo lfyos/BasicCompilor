@@ -1,0 +1,413 @@
+acc		motion_and_axis_command_acc			double_function		1	1	
+add_dac		motion_and_axis_command_add_dac			double_function		1	1
+addax		motion_and_axis_command_addax			double_function		1	1
+axis		motion_and_axis_command_axis			modifier		1	1
+
+backlash	motion_and_axis_command_backlash		double_function		4	4
+base		motion_and_axis_command_base			double_function		1	10
+
+cam		motion_and_axis_command_cam			double_function		4	4
+cambox		motion_and_axis_command_cambox			double_function		5	7
+cancel		motion_and_axis_command_cancel			double_function		0	1
+connect		motion_and_axis_command_connect			double_function		2	2
+
+datum		motion_and_axis_command_datum			double_function		1	1
+dec		motion_and_axis_command_dec			double_function		1	1
+defpos		motion_and_axis_command_defpos			double_function		1	10
+disable_group	motion_and_axis_command_disable_group		double_function		1	10
+
+encoder_ratio	motion_and_axis_command_encoder_ratio		double_function		2	2
+
+forward		motion_and_axis_command_forward			double_function		0	0
+
+mhelical	motion_and_axis_command_mhelical		double_function		6	7
+mhelicalsp	motion_and_axis_command_mhelicalsp		double_function		6	7
+move		motion_and_axis_command_move			double_function		1	4
+moveabs		motion_and_axis_command_moveabs			double_function		1	10
+moveabssp	motion_and_axis_command_moveabssp		double_function		1	4
+movecirc	motion_and_axis_command_movecirc		double_function		5	5
+movecircsp	motion_and_axis_command_movecircsp		double_function		5	5
+movelink	motion_and_axis_command_movelink		double_function		5	7
+movemodify	motion_and_axis_command_movemodify		double_function		1	1
+movesp		motion_and_axis_command_movesp			double_function		1	4
+mspherical	motion_and_axis_command_mspherical		double_function		7	7
+movetang	motion_and_axis_command_movetang		double_function		1	2
+
+rapidstop	motion_and_axis_command_rapidstop		double_function		0	0
+regist		motion_and_axis_command_regist			double_function		1	2
+regist_speed	motion_and_axis_command_regist_speed		double_function		0	0
+reverse		motion_and_axis_command_reverse			double_function		0	0
+stopratio	motion_and_axis_command_stopratio		double_function		2	2
+
+
+
+
+
+
+
+
+ain		input_output_command_ain			double_function		1	1
+
+channel_read	input_output_command_channel_read		double_function		3	7
+channel_write	input_output_command_channel_write		double_function		3	3
+chr		input_output_command_chr			double_function		1	1
+close		input_output_command_close			double_function		1	1
+cursor		input_output_command_cursor			double_function		1	1
+
+defkey		input_output_command_defkey			double_function		2	10
+
+file		input_output_command_file			double_function		1	1
+flag		input_output_command_flag			double_function		1	2
+flags		input_output_command_flags			double_function		0	1
+
+get		input_output_command_get			double_function		-1	-1
+
+hex		input_output_command_hex			double_function		1	1
+
+in		input_output_command_in				double_function		1	2
+
+input		input_output_command_input			integer_function	-1	-2
+
+inputs0		input_output_command_inputs0			double_function		0	0
+inputs1		input_output_command_inputs1			double_function		0	0
+invert_in	input_output_command_invertin			double_function		1	2
+
+key		input_output_command_key			double_function		1	1
+
+linput		input_output_command_linput			double_function		0	0
+
+op		input_output_command_op				double_function		0	2
+
+open		input_output_command_open			double_function		1	1
+
+pswitch		input_output_command_pswitch			double_function		2	7
+
+read_op		input_output_command_readop			double_function		1	2
+readpacket	input_output_command_readpacket			double_function		5	5
+
+send		input_output_command_send			double_function		3	4
+setcom		input_output_command_setcom			double_function		5	9
+
+timer		input_output_command_timer			double_function		4	5
+
+
+
+
+
+
+address		system_parameter_and_command_address		double_function		0	0
+autorun		system_parameter_and_command_autorun		double_function		0	0
+axisvalues	system_parameter_and_command_axisvalue		double_function		2	2
+
+battery_low	system_parameter_and_command_battery_low	double_function		0	0
+break_add	system_parameter_and_command_break_add		double_function		0	0
+break_delete	system_parameter_and_command_break_delete	double_function		0	0
+break_list	system_parameter_and_command_break_list		double_function		0	0
+break_reset	system_parameter_and_command_break_reset	double_function		0	0
+
+can		system_parameter_and_command_can		double_function		0	0
+canio_address	system_parameter_and_command_canio_address	double_function		0	0
+canio_enable	system_parameter_and_command_canio_enable	double_function		0	0
+canio_status	system_parameter_and_command_canio_status	double_function		0	0
+canio_op_rate	system_parameter_and_command_canio_op_rate	double_function		0	0
+checksum	system_parameter_and_command_checksum		double_function		0	0
+clear		system_parameter_and_command_clear		double_function		0	0
+clear_params	system_parameter_and_command_clear_params	double_function		0	0
+commserror	system_parameter_and_command_commserror		double_function		0	0
+commstype	system_parameter_and_command_commstype		double_function		0	0
+compile		system_parameter_and_command_compile		double_function		0	0	
+control		system_parameter_and_command_control		double_function		0	0
+copy		system_parameter_and_command_copy		double_function		0	0
+
+date		system_parameter_and_command_date		double_function		1	1
+day		system_parameter_and_command_day		double_function		0	0
+del		system_parameter_and_command_del		double_function		0	0
+devicenet	system_parameter_and_command_devicenet		double_function		9	9
+dir		system_parameter_and_command_dir		double_function		1	1
+display		system_parameter_and_command_display		double_function		1	1
+dlink		system_parameter_and_command_dlink		double_function		1	10
+
+edit		system_parameter_and_command_edit		double_function		1	1
+edprog		system_parameter_and_command_edprog		double_function		1	1
+eprom		system_parameter_and_command_eprom		double_function		1	1
+error_axis	system_parameter_and_command_error_axis		double_function		1	1
+ethernet	system_parameter_and_command_ethernet		double_function		3	4
+ethernet_ip	system_parameter_and_command_ethernet_ip	double_function		5	7
+ex		system_parameter_and_command_ex			double_function		0	0
+execute		system_parameter_and_command_execute		double_function		0	0
+
+fb_set		system_parameter_and_command_fbset		double_function		0	0
+fb_status	system_parameter_and_command_fbstatus		double_function		0	0
+feature_enable	system_parameter_and_command_feature_enable	double_function		1	1
+flashvr		system_parameter_and_command_flashvr		double_function		1	3
+frame		system_parameter_and_command_frame		double_function		0	0
+free		system_parameter_and_command_free		double_function		0	0
+
+halt		system_parameter_and_command_halt		double_function		0	0
+hlm_command	system_parameter_and_command_hlm_command	double_function		2	4
+hlm_read	system_parameter_and_command_hlm_read		double_function		7	7
+hlm_status	system_parameter_and_command_hlm_status		double_function		0	0
+hlm_timeout	system_parameter_and_command_hlm_timeout	double_function		0	0
+hlm_write	system_parameter_and_command_hlm_write		double_function		7	7
+hls_model	system_parameter_and_command_hlm_model		double_function		0	0
+hls_node	system_parameter_and_command_hlm_node		double_function		0	0
+
+include		system_parameter_and_command_include		double_function		1	1
+initialise	system_parameter_and_command_initialise		double_function		0	0
+last_axis	system_parameter_and_command_last_axish		double_function		0	0
+list		system_parameter_and_command_list		double_function		0	0
+list_global	system_parameter_and_command_list_global	double_function		0	0
+list_project	system_parameter_and_command_list_project	double_function		0	0
+load_system	system_parameter_and_command_load_system	double_function		0	0
+lock		system_parameter_and_command_lock		double_function		1	1
+
+motion_error	system_parameter_and_command_motion_error	double_function		0	0
+mpe		system_parameter_and_command_mpe		double_function		1	1
+n_ana_out	system_parameter_and_command_n_ana_out		double_function		0	0
+naio		system_parameter_and_command_naio		double_function		0	0
+netstat		system_parameter_and_command_netstat		double_function		0	0
+new		system_parameter_and_command_new		double_function		0	1
+nio		system_parameter_and_command_nio		double_function		0	0
+
+peek		system_parameter_and_command_peek		double_function		1	2
+poke		system_parameter_and_command_poke		double_function		2	2
+port		system_parameter_and_command_port		double_function		0	0
+power_up	system_parameter_and_command_power_up		double_function		0	0
+process		system_parameter_and_command_process		double_function		0	0
+profibus	system_parameter_and_command_profibus		double_function		0	0
+protocol	system_parameter_and_command_protocol		double_function		0	0
+
+remote		system_parameter_and_command_remote		double_function		1	1
+rename		system_parameter_and_command_rename		double_function		2	2
+rs232_speed_mode	system_parameter_and_command_remote	double_function		0	0
+run		system_parameter_and_command_run		double_function		1	3
+runtype		system_parameter_and_command_runtype		double_function		1	3
+
+
+scope		system_parameter_and_command_scope		double_function		7	10
+scope_pos	system_parameter_and_command_scope_pos		double_function		0	0
+select		system_parameter_and_command_select		double_function		1	1
+sercos		system_parameter_and_command_sercos		double_function		2	3
+sercos_phase	system_parameter_and_command_sercos_phase	double_function		0	0
+serial_number	system_parameter_and_command_serial_number	double_function		0	0
+servo_period	system_parameter_and_command_servo_period	double_function		0	0
+servo_slot	system_parameter_and_command_servo_slot		modifier		1	1
+stepline	system_parameter_and_command_stepline		double_function		2	2
+stop		system_parameter_and_command_stop		double_function		1	2
+stick_read	system_parameter_and_command_stick_read		double_function		2	2
+stick_write	system_parameter_and_command_stick_write	double_function		2	2
+store		system_parameter_and_command_store		double_function		0	0
+sync_timer	system_parameter_and_command_sync_timer		double_function		0	0
+
+table		system_parameter_and_command_table		double_function		1	20
+tablevalues	system_parameter_and_command_tablevalues	double_function		3	3
+time		system_parameter_and_command_time		double_function		0	0
+trigger		system_parameter_and_command_trigger		double_function		0	0
+troff		system_parameter_and_command_troff		double_function		0	0
+tron		system_parameter_and_command_tron		double_function		0	0
+tsize		system_parameter_and_command_size		double_function		0	0
+
+
+unlock		system_parameter_and_command_unlock		double_function		1	1
+usb		system_parameter_and_command_usb		double_function		2	4
+usb_hertbeat	system_parameter_and_command_usb_hertbeat	double_function		0	0
+usb_stall	system_parameter_and_command_usb_stall		double_function		0	0
+
+version		system_parameter_and_command_version		double_function		0	0
+view		system_parameter_and_command_view		double_function		0	0
+vr		system_parameter_and_command_vr			double_function		1	1
+vrstring	system_parameter_and_command_vrstring		double_function		1	1
+
+wdog		system_parameter_and_command_wdog		double_function		0	0
+wdogb		system_parameter_and_command_wdogb		double_function		0	0
+
+bitrev8		system_parameter_and_command_bitrev8		double_function		1	1
+
+error_line	system_parameter_and_command_error_line		double_function		0	0
+
+indevice	system_parameter_and_command_indevice		double_function		0	0
+
+lookup		system_parameter_and_command_lookup		double_function		2	2
+
+outdevice	system_parameter_and_command_outdevice		double_function		0	0
+
+pmove		system_parameter_and_command_pmove		double_function		0	0
+
+proc		system_parameter_and_command_proc		modifier		1	1
+proc_line	system_parameter_and_command_proc_line		double_function		0	0
+proc_mode	system_parameter_and_command_proc_mode		double_function		1	1
+proc_status	system_parameter_and_command_proc_status	double_function		0	0
+procnumber	system_parameter_and_command_procnumber		double_function		0	0
+
+reset		system_parameter_and_command_reset		double_function		0	0
+run_error	system_parameter_and_command_run_error		double_function		0	0
+
+shift		system_parameter_and_command_shift		double_function		2	2
+strtod		system_parameter_and_command_strtod		double_function		2	4
+
+table_pointer	system_parameter_and_command_table_pointer	double_function		0	0
+ticks		system_parameter_and_command_ticks		double_function		0	0
+
+abs		mathematical_operations_and_command_abs		double_function		1	1
+acos		mathematical_operations_and_command_acos	double_function		1	1
+asin		mathematical_operations_and_command_asin	double_function		1	1
+atan		mathematical_operations_and_command_atan	double_function		1	1
+atan2		mathematical_operations_and_command_atan2	double_function		1	1
+
+b_spline	mathematical_operations_and_command_b_spline	double_function		1	2
+
+clear_bit	mathematical_operations_and_command_clear_bit	double_function		1	2
+cos		mathematical_operations_and_command_cos		double_function		1	1
+crc16		mathematical_operations_and_command_crc16	double_function		2	5
+
+exp		mathematical_operations_and_command_exp		double_function		1	1
+
+frac		mathematical_operations_and_command_frac	double_function		1	1
+
+global		mathematical_operations_and_command_global	double_function		2	2
+
+ieee_in		mathematical_operations_and_command_ieee_in	double_function		4	4
+ieee_out	mathematical_operations_and_command_ieee_out	double_function		2	2
+
+int		mathematical_operations_and_command_int		double_function		1	1
+integer_read	mathematical_operations_and_command_read	double_function		3	3
+integer_write	mathematical_operations_and_command_write	double_function		3	3
+
+ln		mathematical_operations_and_command_ln		double_function		1	1
+
+mod		mathematical_operations_and_command_mod		double_function		1	1
+
+read_bit	mathematical_operations_and_command_read_bit	double_function		2	2
+
+set_bit		mathematical_operations_and_command_set_bit	double_function		2	2
+sgn		mathematical_operations_and_command_sgn		double_function		1	1
+sin		mathematical_operations_and_command_sin		double_function		1	1
+sqr		mathematical_operations_and_command_sqr		double_function		1	1
+
+tan		mathematical_operations_and_command_tan		double_function		1	1
+
+accel		axis_parameter_accel				double_function		0	0
+addax_axis	axis_parameter_addax_axis			double_function		0	0
+affgain		axis_parameter_affgain				double_function		0	0
+atype		axis_parameter_atype				double_function		0	0
+axis_address	axis_parameter_axis_address			double_function		0	0
+axis_enable	axis_parameter_axis_enable			double_function		0	0
+axis_mode	axis_parameter_axis_mode			double_function		0	0
+axisstatus	axis_parameter_axisstatus			double_function		0	0
+
+backlash_dist	axis_parameter_backlash_dist			double_function		0	0
+boost		axis_parameter_boost				double_function		0	0
+
+can_enable	axis_parameter_can_enable			double_function		0	0
+close_win	axis_parameter_close_win			double_function		0	0
+clutch_rate	axis_parameter_clutch_rate			double_function		0	0
+creeep		axis_parameter_creep				double_function		0	0
+
+d_gain		axis_parameter_d_gain				double_function		0	0
+d_zone_min	axis_parameter_d_zone_min			double_function		0	0
+d_zone_max	axis_parameter_d_zone_max			double_function		0	0
+dac		axis_parameter_dac				double_function		0	0
+dac_out		axis_parameter_dac_out				double_function		0	0
+dac_scale	axis_parameter_scale				double_function		0	0
+datum_in	axis_parameter_datum_in				double_function		0	0
+decel		axis_parameter_decel				double_function		0	0
+demand_edges	axis_parameter_demand_edges			double_function		0	0
+demand_speed	axis_parameter_demand_speed			double_function		0	0
+dpos		axis_parameter_dpos				double_function		0	0
+driver_clear	axis_parameter_driver_clear			double_function		0	0
+driver_control	axis_parameter_driver_control			double_function		0	0
+driver_enable	axis_parameter_driver_enable			double_function		0	0
+driver_eprom	axis_parameter_driver_eprom			double_function		0	0
+driver_home	axis_parameter_driver_home			double_function		0	0
+driver_inputs	axis_parameter_driver_inputs			double_function		0	0
+driver_interface	axis_parameter_driver_interface		double_function		0	0
+driver_mode	axis_parameter_driver_mode			double_function		0	0
+driver_monitor	axis_parameter_driver_monitor			double_function		0	0
+driver_read	axis_parameter_driver_read			double_function		0	0
+driver_reset	axis_parameter_driver_reset			double_function		0	0
+driver_write	axis_parameter_driver_write			double_function		0	0
+
+encoder		axis_parameter_encoder				double_function		0	0
+encoder_bits	axis_parameter_encoder_bits			double_function		0	0
+encoder_control	axis_parameter_encoder_control			double_function		0	0
+encoder_id	axis_parameter_encoder_id			double_function		0	0
+encoder_read	axis_parameter_encoder_read			double_function		0	0
+encoder_status	axis_parameter_encoder_status			double_function		0	0
+encoder_turns	axis_parameter_encoder_turns			double_function		0	0
+encoder_write	axis_parameter_encoder_write			double_function		0	0
+endmove		axis_parameter_endmove				double_function		0	0
+endmove_buffer	axis_parameter_endmove_buffer			double_function		0	0
+endmove_speed	axis_parameter_endmove_speed			double_function		0	0
+errormask	axis_parameter_encoder_errormask		double_function		0	0
+
+fast_jog	axis_parameter_fast_jog				double_function		0	0
+fastdec		axis_parameter_fast_dec				double_function		0	0
+
+fe		axis_parameter_fe				double_function		0	0
+fe_latch	axis_parameter_fe_latch				double_function		0	0
+fe_limit	axis_parameter_fe_limit				double_function		0	0
+fe_limit_mode	axis_parameter_fe_limit_mode			double_function		0	0
+fe_range	axis_parameter_fe_range				double_function		0	0
+fegrad		axis_parameter_fe_regrad			double_function		0	0
+femin		axis_parameter_femin				double_function		0	0
+fhold_in	axis_parameter_fhold_in				double_function		0	0
+fhspeed		axis_parameter_fhspeed				double_function		0	0
+force_speed	axis_parameter_force_speed			double_function		0	0
+fs_limit	axis_parameter_fs_limit				double_function		0	0
+full_sp_radius	axis_parameter_full_sp_radius			double_function		0	0
+fwd_in		axis_parameter_fwd_in				double_function		0	0
+fwd_jog		axis_parameter_fwd_jog				double_function		0	0
+
+i_gain		axis_parameter_i_gain				double_function		0	0
+invert_step	axis_parameter_invert_step			double_function		0	0
+
+jogspeed	axis_parameter_jogspeed				double_function		0	0
+
+limit_buffered	axis_parameter_limit_buffered			double_function		0	0
+
+linkax		axis_parameter_linkax				double_function		0	0
+
+mark		axis_parameter_mark				double_function		0	0
+markb		axis_parameter_markb				double_function		0	0
+merge		axis_parameter_merge				double_function		0	0
+microstep	axis_parameter_microstep			double_function		0	0
+moves_buffered	axis_parameter_movebuffered			double_function		0	0
+mpos		axis_parameter_mpos				double_function		0	0
+mspeed		axis_parameter_mspeed				double_function		0	0
+mtype		axis_parameter_mtype				double_function		0	0
+
+ntype		axis_parameter_ntype				double_function		0	0
+
+offpos		axis_parameter_offpos				double_function		0	0
+
+openwin		axis_parameter_openwin				double_function		0	0
+
+outlimit	axis_parameter_outlimit				double_function		0	0
+
+ov_gain		axis_parameter_ovgain				double_function		0	0
+
+p_gain		axis_parameter_p_gain				double_function		0	0
+pp_step		axis_parameter_pp_step				double_function		0	0
+
+
+reg_pos		axis_parameter_reg_pos				double_function		0	0
+remain		axis_parameter_remain				double_function		0	0
+rep_dist	axis_parameter_rep_dist				double_function		0	0
+rep_option	axis_parameter_rep_option			double_function		0	0
+rev_in		axis_parameter_rev_in				double_function		0	0
+rev_jog		axis_parameter_rev_jog				double_function		0	0
+rs_limit	axis_parameter_rs_limit				double_function		0	0
+servo		axis_parameter_servo				double_function		0	0
+speed		axis_parameter_speed				double_function		0	0
+sphere_centre	axis_parameter_sphere_centre			double_function		0	0
+sramp		axis_parameter_sramp				double_function		0	0
+
+tang_direction	axis_parameter_tang_direction			double_function		0	0
+trans_dpos	axis_parameter_trans_dpos			double_function		0	0
+
+units		axis_parameter_units				double_function		0	0
+vector_buffered	axis_parameter_vector_buffered			double_function		0	0
+verify		axis_parameter_verify				double_function		0	0
+vff_gain	axis_parameter_vff_gain				double_function		0	0
+vp_speed	axis_parameter_vp_speed				double_function		0	0
+
